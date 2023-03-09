@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    height: 0.4rem;
+    padding: 1.6rem 6rem;
+}
+
+.logo{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/* BEM  cssの流派の一つ*/
+.navigation{
+    display: flex;
+}
+
+.navigation__list{
+    margin: 0 0.5rem;
+}
+
+.navigation__link{
+    color : #fff;
+    text-decoration: none;
+    line-height: 40px;
+
+}
+
+/* メイン */
+/* 共通部分 */
+.head1{
+    background-color: skyblue;
+    color: #fff;
+    padding: 0.25rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.head2{
+    font-size: 24px;
+    color: #fff;
+    background-color: skyblue;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: 0.25rem;
+    text-align: center;
+    width: 160px;
+}
+
+.head3{
+    color: #707070;
+    font-size: 20px;
+}
+
+main{
+    margin: 60px auto;
+    width: 800px;
+    padding: 0 16px;
+}
+
+.content-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    background-color: skyblue;
+    box-shadow: 0 3px 6px rgba(0,0,0, .16);
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.feature{
+    border: 1px solid #c6c6c6;
+    width: calc(50% - 2rem - 0.5rem - 2px);
+    padding: 1rem;
+    padding-bottom: 3rem;
+    margin: 0.25rem;
+    position: relative;
+}
+
+.feature__text{
+    color: #707070;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.feature__button{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+
+
+
